@@ -12,5 +12,5 @@ RUN apt-get update \
        p7zip-full \
        zip \
     && update-ca-certificates \
-    && python -m pip install https://pypi.gurobi.com gurobipy==${GRB_VERSION} \
+    && python -m pip install gurobipy==${GRB_VERSION} \
     && rm -rf /var/lib/apt/lists/*
