@@ -83,7 +83,7 @@ environment variables, a database or from other sources as required by your appl
 
 A quick guide to the appropriate API parameters and license file properties is available [here](https://github.com/Gurobi/docker-optimizer/blob/master/PARAMS.md).
 
-## Testing with a simple examples
+## Testing with examples
 In the following command-line examples, we will run an example stored on 
 your local machine. The example must be stored in a local directory that
 will be mounted to the instance.
