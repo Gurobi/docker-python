@@ -1,7 +1,7 @@
 version: '3.7'
 services:
   gurobi:
-    image: gurobi/python:9.1.2
+    image: gurobi/python:9.5.0
     environment:
       - GRB_CLIENT_LOG=3
     volumes:
