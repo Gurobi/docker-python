@@ -7,9 +7,9 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 # Supported tags and respective Dockerfile links
 
 * [9.5.0_3.8, 9.5.0, latest](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.8)
-* [9.5.0_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.7)  
-* [9.5.0_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.9)
-* [9.5.0_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.10)  
+* [9.5.0_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.7): Gurobi with Python 3.7
+* [9.5.0_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.9): Gurobi with Python 3.9
+* [9.5.0_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.10): Gurobi with Python 3.10 
 * [9.1.2](https://github.com/Gurobi/docker-python/blob/master/9.1.2/Dockerfile)
 
 
