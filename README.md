@@ -10,7 +10,7 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 * [9.5.0_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.7): Gurobi with Python 3.7
 * [9.5.0_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.9): Gurobi with Python 3.9
 * [9.5.0_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.10): Gurobi with Python 3.10 
-* [9.1.2](https://github.com/Gurobi/docker-python/blob/master/9.1.2/Dockerfile): gurobi/python:9.2.1
+* [9.1.2](https://github.com/Gurobi/docker-python/blob/master/9.1.2/Dockerfile): gurobi/python:9.1.2
 
 
 When building a production application, we recommend using an explicit version number instead of the `latest` tag.
@@ -116,7 +116,7 @@ See some [model examples](https://github.com/Gurobi/docker-python/tree/master/mo
 
 This image can be used directly for some tests, but the main goal is to help build applications using 
 the Gurobi Python API. This image can be used as a base image, and specific application dependencies 
-can be added. Here is an example of a `Dokerfile`:
+can be added. Here is an example of a `Dockerfile`:
 
 File `Dockerfile`
 ```
