@@ -10,7 +10,7 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 * [9.5.1_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.7) Gurobi with Python 3.7
 * [9.5.1_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.9) Gurobi with Python 3.9
 * [9.5.1_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.10) Gurobi with Python 3.10 
-* [9.5.0](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile) Gurobi with Python 3.8, other Python supported versions are gurobi/python:[9.5.0_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.7), [9.5.0_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.9), and [9.5.0_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.10)
+* [9.5.0](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile) Gurobi with Python 3.8, other Python supported versions are [9.5.0_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.7), [9.5.0_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.9), and [9.5.0_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.10)
 * [9.1.2](https://github.com/Gurobi/docker-python/blob/master/9.1.2/Dockerfile): gurobi/python:9.1.2
 
 
