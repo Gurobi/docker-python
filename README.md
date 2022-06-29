@@ -6,12 +6,12 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 
 # Supported tags and respective Dockerfile links
 
-* [9.5.1_3.8, 9.5.1, latest](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.8) The latest Gurobi Python image uses Python 3.8, other Gurobi supported python versions and tags are listed below;
-* [9.5.1_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.7) Gurobi with Python 3.7
-* [9.5.1_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.9) Gurobi with Python 3.9
-* [9.5.1_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.10) Gurobi with Python 3.10 
-* [9.5.0](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile), [9.5.0_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.7), [9.5.0_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.9), and [9.5.0_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile_3.10)
-* [9.1.2](https://github.com/Gurobi/docker-python/blob/master/9.1.2/Dockerfile)
+* [9.5.2_3.8, 9.5.2, latest](https://github.com/Gurobi/docker-python/blob/master/9.5.2/Dockerfile_3.8) The latest Gurobi Python image uses Python 3.8, other Gurobi supported python versions and tags are listed below;
+* [9.5.2_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.2/Dockerfile_3.7) Gurobi with Python 3.7
+* [9.5.2_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.2/Dockerfile_3.9) Gurobi with Python 3.9
+* [9.5.2_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.2/Dockerfile_3.10) Gurobi with Python 3.10 
+* [9.5.1](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile), [9.5.1_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.7), [9.5.1_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.9), and [9.5.1_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.10)
+* [9.5.0](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile)
 
 
 When building a production application, we recommend using an explicit version number instead of the `latest` tag.
