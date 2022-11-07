@@ -1,6 +1,6 @@
 FROM python:3.10-slim-bullseye AS packagepython
 
-ARG GRB_VERSION=10.0.0beta
+ARG GRB_VERSION=10.0.0
 
 LABEL vendor="Gurobi"
 LABEL version=${GRB_VERSION}
@@ -12,6 +12,5 @@ RUN apt-get update \
        p7zip-full \
        zip \
     && update-ca-certificates \
-    && pip install gurobipy==10.0.0b1 \
-#    && python -m pip install gurobipy==${GRB_VERSION} \
+    && python -m pip install gurobipy==${GRB_VERSION} \
     && rm -rf /var/lib/apt/lists/*
