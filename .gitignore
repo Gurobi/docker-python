@@ -4,5 +4,5 @@
 out
 gen
 *.lic
-.DS_Store*
-/.DS_Store*
+9.5.0/.DS_Store
+.DS_Store
