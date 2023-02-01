@@ -4,3 +4,4 @@
 out
 gen
 *.lic
+.DS_Store*
