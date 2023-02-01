@@ -7,6 +7,11 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 # Supported tags and respective Dockerfile links
 
 
+
+* [10.0.1_3.8, 10.0.1, latest](https://github.com/Gurobi/docker-python/blob/master/10.0.1/Dockerfile_3.8) The latest Gurobi Python image uses Python 3.8, other Gurobi supported python versions and tags are listed below;
+* [10.0.1_3.7](https://github.com/Gurobi/docker-python/blob/master/10.0.1/Dockerfile_3.7) Gurobi with Python 3.7
+* [10.0.1_3.9](https://github.com/Gurobi/docker-python/blob/master/10.0.1/Dockerfile_3.9) Gurobi with Python 3.9
+* [10.0.1_3.10](https://github.com/Gurobi/docker-python/blob/master/10.0.1/Dockerfile_3.10) Gurobi with Python 3.10
 * [10.0.0_3.8, 10.0.0, latest](https://github.com/Gurobi/docker-python/blob/master/10.0.0/Dockerfile_3.8) The latest Gurobi Python image uses Python 3.8, other Gurobi supported python versions and tags are listed below;
 * [10.0.0_3.7](https://github.com/Gurobi/docker-python/blob/master/10.0.0/Dockerfile_3.7) Gurobi with Python 3.7
 * [10.0.0_3.9](https://github.com/Gurobi/docker-python/blob/master/10.0.0/Dockerfile_3.9) Gurobi with Python 3.9
