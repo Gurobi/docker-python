@@ -1,0 +1,16 @@
+FROM python:3.7-slim-bullseye AS packagepython
+
+ARG GRB_VERSION=10.0.3
+
+LABEL vendor="Gurobi"
+LABEL version=${GRB_VERSION}
+
+# update system and certificates
+RUN apt-get update \
+    && apt-get install --no-install-recommends -y\
+       ca-certificates  \
+       p7zip-full \
+       zip \
+    && update-ca-certificates \
+    && python -m pip install gurobipy==${GRB_VERSION} \
+    && rm -rf /var/lib/apt/lists/*
