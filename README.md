@@ -6,7 +6,11 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 
 # Supported tags and respective Dockerfile links
 
-* [11.0.3_3.8, 11.0.3, latest](https://github.com/Gurobi/docker-python/blob/master/11.0.3/Dockerfile_3.8) Gurobi with Python 3.8
+* [12.0.0_3.9, 12.0.0, latest](https://github.com/Gurobi/docker-python/blob/master/12.0.0/Dockerfile_3.9) Gurobi with Python 3.8
+* [12.0.0_3.10](https://github.com/Gurobi/docker-python/blob/master/12.0.0/Dockerfile_3.10) Gurobi with Python 3.10
+* [12.0.0_3.11](https://github.com/Gurobi/docker-python/blob/master/12.0.0/Dockerfile_3.11) Gurobi with Python 3.11
+* [12.0.0_3.12](https://github.com/Gurobi/docker-python/blob/master/12.0.0/Dockerfile_3.12) Gurobi with Python 3.11
+* [11.0.3_3.8, 11.0.3](https://github.com/Gurobi/docker-python/blob/master/11.0.3/Dockerfile_3.8) Gurobi with Python 3.8
 * [11.0.3_3.9](https://github.com/Gurobi/docker-python/blob/master/11.0.3/Dockerfile_3.9) Gurobi with Python 3.9
 * [11.0.3_3.10](https://github.com/Gurobi/docker-python/blob/master/11.0.3/Dockerfile_3.10) Gurobi with Python 3.10
 * [11.0.3_3.11](https://github.com/Gurobi/docker-python/blob/master/11.0.3/Dockerfile_3.11) Gurobi with Python 3.11  
@@ -38,12 +42,6 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 * [10.0.0_3.7](https://github.com/Gurobi/docker-python/blob/master/10.0.0/Dockerfile_3.7) Gurobi with Python 3.7
 * [10.0.0_3.9](https://github.com/Gurobi/docker-python/blob/master/10.0.0/Dockerfile_3.9) Gurobi with Python 3.9
 * [10.0.0_3.10](https://github.com/Gurobi/docker-python/blob/master/10.0.0/Dockerfile_3.10) Gurobi with Python 3.10
-* [9.5.2_3.8, 9.5.2](https://github.com/Gurobi/docker-python/blob/master/9.5.2/Dockerfile_3.8) Gurobi with Python 3.8
-* [9.5.2_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.2/Dockerfile_3.7) Gurobi with Python 3.7
-* [9.5.2_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.2/Dockerfile_3.9) Gurobi with Python 3.9
-* [9.5.2_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.2/Dockerfile_3.10) Gurobi with Python 3.10 
-* [9.5.1](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile), [9.5.1_3.7](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.7), [9.5.1_3.9](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.9), and [9.5.1_3.10](https://github.com/Gurobi/docker-python/blob/master/9.5.1/Dockerfile_3.10)
-* [9.5.0](https://github.com/Gurobi/docker-python/blob/master/9.5.0/Dockerfile)
 
 
 When building a production application, we recommend using an explicit version number instead of the `latest` tag.
