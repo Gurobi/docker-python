@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  gurobi:
+    image: gurobi/python:12.0.2
+    environment:
+      - GRB_CLIENT_LOG=3
+    volumes:
+      - ./models:/models
+      - ./gurobi.lic:/opt/gurobi/gurobi.lic:ro
