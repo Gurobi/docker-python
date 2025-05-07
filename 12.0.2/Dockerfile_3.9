@@ -1,4 +1,4 @@
-FROM python:3.9-slim-bullseye AS packagepython
+FROM python:3.9-slim-bookworm AS packagepython
 
 ARG GRB_VERSION=12.0.2
 
@@ -6,6 +6,7 @@ LABEL vendor="Gurobi"
 LABEL version=${GRB_VERSION}
 
 # update system and certificates
+# RUN sed -i 's|http://deb.debian.org|http://ftp.de.debian.org|g' /etc/apt/sources.list \
 RUN apt-get update \
     && apt-get install --no-install-recommends -y\
        ca-certificates  \

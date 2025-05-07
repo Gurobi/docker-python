@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bullseye AS packagepython
+FROM python:3.11-slim-bookworm AS packagepython
 
 ARG GRB_VERSION=12.0.2
 
