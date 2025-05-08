@@ -6,6 +6,8 @@ LABEL vendor="Gurobi"
 LABEL version=${GRB_VERSION}
 
 # update system and certificates
+RUN sed -i 's|http://deb.debian.org|https://nexus.compute.gurobi.com/repository/debian|g' /etc/apt/sources.list.d/debian.sources
+RUN printf "[global]\nindex = https://nexus.compute.gurobi.com/repository/pypi-proxy/pypi\nindex-url = https://nexus.compute.gurobi.com/repository/pypi-proxy/simple" > /etc/pip.conf
 RUN apt-get update \
     && apt-get install --no-install-recommends -y\
        ca-certificates  \
