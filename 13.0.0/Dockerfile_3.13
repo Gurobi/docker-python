@@ -1,6 +1,6 @@
 FROM python:3.13-slim-bookworm AS packagepython
 
-ARG GRB_VERSION=13.0.0b1
+ARG GRB_VERSION=13.0.0
 
 LABEL vendor="Gurobi"
 LABEL version=${GRB_VERSION}

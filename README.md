@@ -6,11 +6,11 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 
 # Supported tags and respective Dockerfile links
 
-* [13.0.0_3.10beta1, 13.0.0beta1](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.10) Gurobi with Python 3.10
-* [13.0.0_3.11beta1](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.11) Gurobi with Python 3.11
-* [13.0.0_3.12beta1](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.12) Gurobi with Python 3.12
-* [13.0.0_3.13beta1](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.13) Gurobi with Python 3.9
-* [12.0.3_3.10, 12.0.3, latest](https://github.com/Gurobi/docker-python/blob/master/12.0.3/Dockerfile_3.10) Gurobi with Python 3.10
+* [13.0.0_3.10, 13.0.0, latest](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.10) Gurobi with Python 3.10
+* [13.0.0_3.11](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.11) Gurobi with Python 3.11
+* [13.0.0_3.12](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.12) Gurobi with Python 3.12
+* [13.0.0_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.13) Gurobi with Python 3.9
+* [12.0.3_3.10, 12.0.3](https://github.com/Gurobi/docker-python/blob/master/12.0.3/Dockerfile_3.10) Gurobi with Python 3.10
 * [12.0.3_3.9](https://github.com/Gurobi/docker-python/blob/master/12.0.3/Dockerfile_3.9) Gurobi with Python 3.9
 * [12.0.3_3.11](https://github.com/Gurobi/docker-python/blob/master/12.0.3/Dockerfile_3.11) Gurobi with Python 3.11
 * [12.0.3_3.12](https://github.com/Gurobi/docker-python/blob/master/12.0.3/Dockerfile_3.12) Gurobi with Python 3.12
