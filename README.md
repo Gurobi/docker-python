@@ -6,7 +6,11 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 
 # Supported tags and respective Dockerfile links
 
-* [13.0.1_3.10, 13.0.1, latest](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.10) Gurobi with Python 3.10
+* [13.0.2_3.10, 13.0.2, latest](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.10) Gurobi with Python 3.10
+* [13.0.2_3.11](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.11) Gurobi with Python 3.11
+* [13.0.2_3.12](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.12) Gurobi with Python 3.12
+* [13.0.2_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.13) Gurobi with Python 3.9
+* [13.0.1_3.10, 13.0.1](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.10) Gurobi with Python 3.10
 * [13.0.1_3.11](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.11) Gurobi with Python 3.11
 * [13.0.1_3.12](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.12) Gurobi with Python 3.12
 * [13.0.1_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.13) Gurobi with Python 3.9
