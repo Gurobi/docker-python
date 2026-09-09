@@ -11,19 +11,19 @@ See Gurobi's [release and support history](https://support.gurobi.com/hc/en-us/a
 * [13.0.3_3.10, 13.0.3, latest](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.10) Gurobi with Python 3.10
 * [13.0.3_3.11](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.11) Gurobi with Python 3.11
 * [13.0.3_3.12](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.12) Gurobi with Python 3.12
-* [13.0.3_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.13) Gurobi with Python 3.9
+* [13.0.3_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.13) Gurobi with Python 3.13
 * [13.0.2_3.10, 13.0.2](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.10) Gurobi with Python 3.10
 * [13.0.2_3.11](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.11) Gurobi with Python 3.11
 * [13.0.2_3.12](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.12) Gurobi with Python 3.12
-* [13.0.2_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.13) Gurobi with Python 3.9
+* [13.0.2_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.2/Dockerfile_3.13) Gurobi with Python 3.13
 * [13.0.1_3.10, 13.0.1](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.10) Gurobi with Python 3.10
 * [13.0.1_3.11](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.11) Gurobi with Python 3.11
 * [13.0.1_3.12](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.12) Gurobi with Python 3.12
-* [13.0.1_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.13) Gurobi with Python 3.9
+* [13.0.1_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.1/Dockerfile_3.13) Gurobi with Python 3.13
 * [13.0.0_3.10, 13.0.0](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.10) Gurobi with Python 3.10
 * [13.0.0_3.11](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.11) Gurobi with Python 3.11
 * [13.0.0_3.12](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.12) Gurobi with Python 3.12
-* [13.0.0_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.13) Gurobi with Python 3.9
+* [13.0.0_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.0/Dockerfile_3.13) Gurobi with Python 3.13
 * [12.0.3_3.10, 12.0.3](https://github.com/Gurobi/docker-python/blob/master/12.0.3/Dockerfile_3.10) Gurobi with Python 3.10
 * [12.0.3_3.9](https://github.com/Gurobi/docker-python/blob/master/12.0.3/Dockerfile_3.9) Gurobi with Python 3.9
 * [12.0.3_3.11](https://github.com/Gurobi/docker-python/blob/master/12.0.3/Dockerfile_3.11) Gurobi with Python 3.11
@@ -44,7 +44,7 @@ See Gurobi's [release and support history](https://support.gurobi.com/hc/en-us/a
 * [11.0.3_3.9](https://github.com/Gurobi/docker-python/blob/master/11.0.3/Dockerfile_3.9) Gurobi with Python 3.9
 * [11.0.3_3.10](https://github.com/Gurobi/docker-python/blob/master/11.0.3/Dockerfile_3.10) Gurobi with Python 3.10
 * [11.0.3_3.11](https://github.com/Gurobi/docker-python/blob/master/11.0.3/Dockerfile_3.11) Gurobi with Python 3.11  
-* [11.0.2_3.8, 11.0.2,](https://github.com/Gurobi/docker-python/blob/master/11.0.2/Dockerfile_3.8) Gurobi with Python 3.8
+* [11.0.2_3.8, 11.0.2](https://github.com/Gurobi/docker-python/blob/master/11.0.2/Dockerfile_3.8) Gurobi with Python 3.8
 * [11.0.2_3.9](https://github.com/Gurobi/docker-python/blob/master/11.0.2/Dockerfile_3.9) Gurobi with Python 3.9
 * [11.0.2_3.10](https://github.com/Gurobi/docker-python/blob/master/11.0.2/Dockerfile_3.10) Gurobi with Python 3.10
 * [11.0.2_3.11](https://github.com/Gurobi/docker-python/blob/master/11.0.2/Dockerfile_3.11) Gurobi with Python 3.11
@@ -206,7 +206,7 @@ docker build -t my-gurobi-app .
 ```
 
 As already mentioned, the license file should not be copied into the image, and we will 
-give example about how to mount the license file in the next sections.
+give an example of how to mount the license file in the next sections.
 
 ## Using Docker
 
@@ -259,7 +259,7 @@ services:
 
 ```
 
-Run `$ docker-compose up --build ` to build and run you application.
+Run `$ docker-compose up --build ` to build and run your application.
 
 ## Using Kubernetes
 
