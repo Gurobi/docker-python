@@ -6,9 +6,13 @@ Where to get help: [Gurobi Support](https://www.gurobi.com/support/), [Gurobi Do
 
 # Supported tags and respective Dockerfile links
 
-See Gurobi's [release and support history](https://support.gurobi.com/hc/en-us/articles/360048138771-Gurobi-release-and-support-history) for which versions are actively supported. All 11.0.x, 12.0.x, and 13.0.x images below are rebuilt on a regular basis to pick up updated base-image dependencies. Versions before 11.0.0 are no longer supported and are listed below for reference only — those images are not rebuilt, so any base-image vulnerabilities reported against them will not be patched.
+See Gurobi's [release and support history](https://support.gurobi.com/hc/en-us/articles/360048138771-Gurobi-release-and-support-history) for which versions are actively supported. All 11.0.x, 12.0.x, 13.0.x, and 14.0.x images below are rebuilt on a regular basis to pick up updated base-image dependencies. Versions before 11.0.0 are no longer supported and are listed below for reference only — those images are not rebuilt, so any base-image vulnerabilities reported against them will not be patched.
 
-* [13.0.3_3.10, 13.0.3, latest](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.10) Gurobi with Python 3.10
+* [14.0.0_3.11, 14.0.0, latest](https://github.com/Gurobi/docker-python/blob/master/14.0.0/Dockerfile_3.11) Gurobi with Python 3.11
+* [14.0.0_3.12](https://github.com/Gurobi/docker-python/blob/master/14.0.0/Dockerfile_3.12) Gurobi with Python 3.12
+* [14.0.0_3.13](https://github.com/Gurobi/docker-python/blob/master/14.0.0/Dockerfile_3.13) Gurobi with Python 3.13
+* [14.0.0_3.14](https://github.com/Gurobi/docker-python/blob/master/14.0.0/Dockerfile_3.14) Gurobi with Python 3.14
+* [13.0.3_3.10, 13.0.3](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.10) Gurobi with Python 3.10
 * [13.0.3_3.11](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.11) Gurobi with Python 3.11
 * [13.0.3_3.12](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.12) Gurobi with Python 3.12
 * [13.0.3_3.13](https://github.com/Gurobi/docker-python/blob/master/13.0.3/Dockerfile_3.13) Gurobi with Python 3.13
